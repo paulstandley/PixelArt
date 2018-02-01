@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body>
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <h2>Choose a Grid Size max 40 Pixel's</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="input_height" name="height" min="1" value="1">
+        Grid Width:
+        <input type="number" id="input_width" name="width" min="1" value="1">
+        
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Name Canvas</h2>
+    
+    <input type="text" id="canvas_name">
+    <input type="submit" id="input_name" class="sub_button">
+    </form>
+
+    <h2>Click to draw & Ctrl + click delete</h2>
+
+    <h2>Design Canvas</h2>
+    
+    <table id="pixel_canvas"></table>
+    
+    <h3 id="header3"></h3>
+        
+    <script src="designs.js"></script>
+</body>
+<footer>
+    <p>Indie Flower on google fonts <em>Kimberly Geswein</em>
+        Principal design</p>
+        <a href="https://fonts.google.com/specimen/Indie+Flower?selection.family=Indie+Flower" target="_blanck">Indie Flower</a>
+</footer>
+</html>
